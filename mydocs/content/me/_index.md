@@ -17,4 +17,11 @@ draft = false
 
 +++
 
-# Hi
+# About Me
+
+I work as a data scientist/data engineer in Tokyo, Japan. I love mathematics, the representation theory is the best, especially the combinatorial representation theory and algebraic combinatorics are my favorite ones. I also love data science and data engineering.
+
+# Social Links
+
+- GitHub: [@snrsw](https://github.com/snrsw)
+- Twitter: [@s_nrsw](https://twitter.com/s_nrsw)
