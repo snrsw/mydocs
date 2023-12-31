@@ -1,0 +1,18 @@
+name: 🍋 Content
+description: Suggest contents for the docs or the blog
+title: "[Content] <title>"
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    attributes:
+      label: Describe the content
+      description: A clear and concise description of what you want to write.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References? Anything that will give us more context about the content you are suggesting!
+    validations:
+      required: false
