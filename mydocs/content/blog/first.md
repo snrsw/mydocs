@@ -1,5 +1,5 @@
 +++
-title = "Let's start a blog!"
+title = "🎒 Let's start a blog!"
 description = ""
 date = "2023-12-31T17:51:50+09:00"
 updated = "2023-12-31T17:51:50+09:00"
