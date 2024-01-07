@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>My Docs</title>
+    <subtitle>snrsw&#x27;s docs</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://snrsw.github.io/mydocs/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-07T23:59:59+09:00</updated>
+    <id>https://snrsw.github.io/mydocs/atom.xml</id>
+    <entry xml:lang="en">
+        <title>📆 The 1st week of Jan</title>
+        <published>2024-01-07T23:59:59+09:00</published>
+        <updated>2024-01-07T23:59:59+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/jan-1/"/>
+        <id>https://snrsw.github.io/mydocs/blog/jan-1/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/jan-1/">&lt;h1 id=&quot;articles&quot;&gt;Articles&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;programming&quot;&gt;Programming&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;magurotuna&#x2F;articles&#x2F;rust-at-work&quot;&gt;RustでWebバックエンドを書き始めてから1年くらい経った&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;ml-dl&quot;&gt;ML &#x2F; DL&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;xgboost.readthedocs.io&#x2F;en&#x2F;stable&#x2F;tutorials&#x2F;model.html&quot;&gt;Introduction to Boosted Trees&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tech.preferred.jp&#x2F;ja&#x2F;blog&#x2F;fine-tuning-for-medical-image-fundation-model&#x2F;&quot;&gt;医用画像セグメンテーションに向けた基盤モデルの fine-tuning 手法の検討&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tech.preferred.jp&#x2F;ja&#x2F;blog&#x2F;extending-multiple-instance-learning-using-lesion-annotation&#x2F;&quot;&gt;少数の病変部位アノテーションを活用したMultiple Instance Learningの拡張&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dmlc&#x2F;xgboost&#x2F;issues&#x2F;2106&quot;&gt;Is it necessary to get rid of useless features in the classification task in XGBoost?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;forecastegy.com&#x2F;posts&#x2F;can-gradient-boosting-learn-simple-arithmetic&#x2F;&quot;&gt;Can Gradient Boosting Learn Simple Arithmetic?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dmlc&#x2F;xgboost&#x2F;issues&#x2F;4069&quot;&gt;XGBoost has trouble modeling multiplication&#x2F;division #4069&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;other&quot;&gt;Other&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;sizu.me&#x2F;helloyuki&#x2F;posts&#x2F;ubverm6hfxm7&quot;&gt;毎日始業直後25分の技術キャッチアップがよくワークしている話&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;sizu.me&#x2F;helloyuki&#x2F;posts&#x2F;mabo08sznt71&quot;&gt;日系企業のキャリアラダー上のIC&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;pr.forkwell.com&#x2F;tech_event_reports&#x2F;staff-engineer&#x2F;&quot;&gt;「スタッフエンジニアとは？役割・スキル・キャリアパスを徹底解説！」増井 雄一郎&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;note.com&#x2F;k1ito&#x2F;n&#x2F;n58ab7554ff51&quot;&gt;新規事業・スタートアップやりたいと言っていた1年前の自分に言ってあげたい言葉&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;blog-dry.com&#x2F;entry&#x2F;2024&#x2F;01&#x2F;02&#x2F;221530&quot;&gt;2023年、読んで印象に残った本&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;rework.withgoogle.com&#x2F;jp&#x2F;guides&#x2F;set-goals-with-okrs#introduction&quot;&gt;OKRを設定する&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;github-trending&quot;&gt;GitHub Trending&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;myshell-ai&#x2F;OpenVoice&quot;&gt;myshell-ai&#x2F;OpenVoice&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mlabonne&#x2F;llm-course&quot;&gt;mlabonne&#x2F;llm-course&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tyxsspa&#x2F;AnyText&quot;&gt;tyxsspa&#x2F;AnyText&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;donnemartin&#x2F;system-design-primer&quot;&gt;donnemartin&#x2F;system-design-primer&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;movie-web&#x2F;movie-web&quot;&gt;movie-web&#x2F;movie-web&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;coqui-ai&#x2F;TTS&quot;&gt;coqui-ai&#x2F;TTS&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>🍞 OKR 2024 Q1</title>
+        <published>2024-01-04T15:46:13+09:00</published>
+        <updated>2024-01-04T15:46:13+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/okr-2024-q1/"/>
+        <id>https://snrsw.github.io/mydocs/blog/okr-2024-q1/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/okr-2024-q1/">&lt;p&gt;2024-01-01 から 2024-03-31 までの OKR を設定してみる．本を読む系が多く，かなり重くなってしまったが，そういうものだしまあいいか．&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;objective-shu-xue-woji-sok-suru&quot;&gt;Objective: 数学を継続する&lt;&#x2F;h1&gt;
+&lt;p&gt;去年は本格的に働き始めたこともあって，数学に充てる時間がずいぶん減った．特に教科書や論文を読むようような継続的に時間を取るタイプの数学が減った．悲しいので意識的に時間を作りたい．&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-representation-theory-a-first-course-wodu-mu&quot;&gt;Key Result: &lt;a href=&quot;https:&#x2F;&#x2F;amzn.asia&#x2F;d&#x2F;9Mv8E71&quot;&gt;Representation Theory: A First Course&lt;&#x2F;a&gt; を読む&lt;&#x2F;h2&gt;
+&lt;p&gt;リー理論を復習しつつ，古典型の表現論に親しみたい．具体例をいじくり回す方針で基礎をやり直したい気分．&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-xue-bu-noshu-xue-wofu-xi-suru&quot;&gt;Key Result: 学部の数学を復習する&lt;&#x2F;h2&gt;
+&lt;p&gt;ゆっくり時間を使って基礎をやり直したい気分．ついでに取りこぼしも補完したい．&lt;a href=&quot;https:&#x2F;&#x2F;amzn.asia&#x2F;d&#x2F;5ctYPCS&quot;&gt;All the Math You Missed&lt;&#x2F;a&gt; は気持ちがわかる．&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;objective-ds-denochang-shi-woshen-nitukeru&quot;&gt;Objective: DS&#x2F;DEの常識を身につける&lt;&#x2F;h1&gt;
+&lt;p&gt;やらないといけないことはたくさんあるが，この段階で基礎っぽいことを改めてちゃんとしておきたい．機械学習系は&lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;tmaehara&#x2F;status&#x2F;1644230083308134403&quot;&gt;@tmaeharaさんのガイド&lt;&#x2F;a&gt;に従って．&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-the-hundred-page-machine-learning-book-wodu-mu&quot;&gt;Key Result: &lt;a href=&quot;https:&#x2F;&#x2F;amzn.eu&#x2F;d&#x2F;bqaVUDr&quot;&gt;The Hundred-Page Machine Learning Book&lt;&#x2F;a&gt; を読む&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;tmaehara&#x2F;status&#x2F;1644230083308134403&quot;&gt;@tmaeharaさんのガイド&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-understanding-machine-learning-from-theory-to-algorithms-wodu-mu&quot;&gt;Key Result: &lt;a href=&quot;https:&#x2F;&#x2F;amzn.eu&#x2F;d&#x2F;bbrbdWZ&quot;&gt;Understanding Machine Learning: From Theory to Algorithms&lt;&#x2F;a&gt; を読む&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;tmaehara&#x2F;status&#x2F;1644230083308134403&quot;&gt;@tmaeharaさんのガイド&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-kagglenokonpenican-jia-suru&quot;&gt;Key Result: Kaggleのコンペに参加する&lt;&#x2F;h2&gt;
+&lt;p&gt;画像系を頑張りたい．&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-detazhi-xiang-apurikesiyondezain-wodu-mu&quot;&gt;Key Result: &lt;a href=&quot;https:&#x2F;&#x2F;amzn.asia&#x2F;d&#x2F;2UXjNzi&quot;&gt;データ指向アプリケーションデザイン&lt;&#x2F;a&gt; を読む&lt;&#x2F;h2&gt;
+&lt;p&gt;DE関連でとりあえず1冊．&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;objective-swenochang-shi-woshen-nitukeru&quot;&gt;Objective: SWEの常識を身につける&lt;&#x2F;h1&gt;
+&lt;p&gt;DEに関連して，SWEの常識を身につけたい．&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-googlenosohutoueaenziniaringu-wodu-mu&quot;&gt;Key Result: &lt;a href=&quot;https:&#x2F;&#x2F;amzn.asia&#x2F;d&#x2F;bYSl7x2&quot;&gt;Googleのソフトウェアエンジニアリング&lt;&#x2F;a&gt; を読む&lt;&#x2F;h2&gt;
+&lt;p&gt;現時点で読みかけ，すごい良いのでちゃんと読みたい．&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-code-complete-wodu-mu&quot;&gt;Key Result: &lt;a href=&quot;https:&#x2F;&#x2F;snrsw.github.io&#x2F;mydocs&#x2F;blog&#x2F;okr-2024-q1&#x2F;%5B&#x2F;d&#x2F;9Q1ZQ8Y%5D(https:&#x2F;&#x2F;amzn.asia&#x2F;d&#x2F;2LRmxS8)&quot;&gt;CODE COMPLETE&lt;&#x2F;a&gt; を読む&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;amzn.asia&#x2F;d&#x2F;0FFd8dh&quot;&gt;Good Code, Bad Code&lt;&#x2F;a&gt; を読んだので類書として簡単に読みたい．&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>🎒 Let&#x27;s start a blog!</title>
+        <published>2023-12-31T17:51:50+09:00</published>
+        <updated>2023-12-31T17:51:50+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/first/"/>
+        <id>https://snrsw.github.io/mydocs/blog/first/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/first/">&lt;p&gt;I&#x27;ve decided to start a blog. I plan to write about mathematics, data science, data engineering, and whatever else I want to write about. There are two types of posts on this site: blogs and docs. Blog posts are about thoughts and ideas, while documentation are brief, clear explanatory posts about a particular topic. I write articles in English and Japanese. I hope you enjoy my blog posts.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>snrsw</title>
+        <published>2021-04-01T08:50:45+00:00</published>
+        <updated>2021-04-01T08:50:45+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/authors/snrsw/"/>
+        <id>https://snrsw.github.io/mydocs/authors/snrsw/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/authors/snrsw/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;snrsw&quot;&gt;@snrsw&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>snrsw</title>
+        <published>2021-04-01T08:50:45+00:00</published>
+        <updated>2021-04-01T08:50:45+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/me/snrsw/"/>
+        <id>https://snrsw.github.io/mydocs/me/snrsw/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/me/snrsw/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;snrsw&quot;&gt;@snrsw&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
