@@ -3,7 +3,7 @@ title = "📆 The 2st week of Jan"
 description = ""
 date = "2024-01-14T21:55:57+09:00"
 updated = "2024-01-14T21:55:57+09:00"
-draft = true
+draft = false
 template = "blog/page.html"
 
 [taxonomies]
