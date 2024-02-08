@@ -23,6 +23,7 @@ The result shows that the map method is the most efficient.
 The problem of updating rows per group is described as follows:
 
 Input:
+
 |id|value|
 |---|---|
 |A|1|
@@ -36,6 +37,7 @@ Task:
   - Let us update the value of id A to 10, id B to 20, and id C to 30.
 
 Output:
+
 |id|value|
 |---|---|
 |A|10|
