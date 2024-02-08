@@ -202,7 +202,7 @@ exec time unit: ms
 
 - The map method is the most efficient method,
 - The groupby method is relatively efficient, especially the case where n_ids=1000 and n_rows_per_id=1000 is not bad,
-- The other methods and the pd_mask method are less efficient than the map and groupby methods,
+- The other methods and are less efficient than the map and groupby methods,
 - The number of unique ids has a strong effect on the efficiency of the methods.
 
 # References
