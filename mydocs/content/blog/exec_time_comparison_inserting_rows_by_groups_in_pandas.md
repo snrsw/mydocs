@@ -197,6 +197,8 @@ def generate_id2newvalue(dataframe: pd.DataFrame) -> dict[int, int]:
 |    1000 |             100 |             10 |         666.854 |             331.496 |           299.176 |             960.2   |              524.357 |           8.438 |
 |    1000 |            1000 |             10 |        3913.51  |             385.758 |          3289.46  |            3783.44  |             4967.53  |          30.878 |
 
+exec time unit: ms
+
 
 - The map method is the most efficient method,
 - The groupby method is relatively efficient, especially the case where n_ids=1000 and n_rows_per_id=1000 is not bad,
