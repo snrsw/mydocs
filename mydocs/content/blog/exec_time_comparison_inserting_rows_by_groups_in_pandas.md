@@ -207,4 +207,5 @@ exec time unit: ms
 
 # References
 
-For more details, please see the following notebook: https://colab.research.google.com/drive/1j5BHKRA1VfLR00HPgoEFy_Sfz6UwWtX0?usp=sharing
+For more details, please see the following notebook:
+[Google Colabratory](https://colab.research.google.com/drive/1j5BHKRA1VfLR00HPgoEFy_Sfz6UwWtX0?usp=sharing).
