@@ -3,7 +3,7 @@ title = "🍉 Casual execution time comparison: updating rows per group in Panda
 description = ""
 date = "2024-02-09T03:28:57+09:00"
 updated = "2024-02-09T03:28:57+09:00"
-draft = false
+draft = true
 template = "blog/page.html"
 
 [taxonomies]
