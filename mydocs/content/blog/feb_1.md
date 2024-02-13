@@ -1,5 +1,5 @@
 +++
-title = "📆 The 1th week of Feb"
+title = "📆 The 1st week of Feb"
 description = ""
 date = "2024-02-11T21:55:57+09:00"
 updated = "2024-02-11T21:55:57+09:00"
