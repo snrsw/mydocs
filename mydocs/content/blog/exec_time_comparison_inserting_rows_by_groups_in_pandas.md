@@ -3,7 +3,7 @@ title = "🍉 Casual execution time comparison: updating rows per group in Panda
 description = ""
 date = "2024-02-09T03:28:57+09:00"
 updated = "2024-02-09T03:28:57+09:00"
-draft = true
+draft = false
 template = "blog/page.html"
 
 [taxonomies]
@@ -34,22 +34,26 @@ Input:
 
 Task:
 - Update the value per group
-  - Let us update the value of id A to 10, id B to 20, and id C to 30.
+  - Let us update the value of id A to value * 2, id B to value * 10, and id C to value + 1.
 
 Output:
 
 |id|value|
 |---|---|
-|A|10|
-|A|10|
-|B|20|
-|B|20|
-|C|30|
+|A|2|
+|A|4|
+|B|30|
+|B|40|
+|C|51|
 
 
 The goal of this post is to compare the efficiency of different methods for updating rows per group in Pandas.
 
 # Experiment
+
+## Environment
+
+All codes are executed in Google Colabratory with CPU.
 
 ## Methods of updating rows per group
 
@@ -60,29 +64,29 @@ We consider the following methods for updating rows per group in Pandas:
 3. Using `pd.DataFrame.apply`
 4. Using `pd.DataFrame.mask`
 5. Using `np.where`
-6. Using `map`
+6. Using `map` and `pd.DataFrame.apply`
 
 (I think these are common methods for updating rows per group in Pandas. If you know other efficient methods, please let me know.)
 
-In detail, the following functions are used for each method: Note that `id2newvalue` is a dictionary that maps the id to the new value.
+In detail, the following functions are used for each method: Note that `id2newvalue` is a dictionary that has the mapping from id to function for updating the value.
 
 ### Using `pd.DataFrame.loc`
 
 ```python
-def use_loc(df: pd.DataFrame, id2newvalue: dict[int, int]) -> None:
+def use_loc(df: pd.DataFrame, id2newvalue: dict[int, Callable[[int], int]]) -> None:
     for id in df["id"].unique():
-        df.loc[df["id"] == id, "value"] = id2newvalue[id]
+        df.loc[df["id"] == id, "value"] = df.loc[df["id"] == id, "value"].map(id2newvalue[id])
     return df
 ```
 
 ### Using `pd.DataFrame.groupby`
 
 ```python
-def use_groupby(df: pd.DataFrame, id2newvalue: dict[int, int]) -> None:
+def use_groupby(df: pd.DataFrame, id2newvalue: dict[int, Callable[[int], int]]) -> None:
     return pd.concat(
         [
             gdf.assign(
-                value=id2newvalue[g]
+                value=lambda df: df["value"].map(id2newvalue[g])
             )
             for g, gdf in df.groupby("id")
         ]
@@ -92,34 +96,35 @@ def use_groupby(df: pd.DataFrame, id2newvalue: dict[int, int]) -> None:
 ### Using `pd.DataFrame.apply`
 
 ```python
-def use_apply(df: pd.DataFrame, id2newvalue: dict[int, int]):
-    df["value"] = df["id"].apply(lambda x: id2newvalue[x])
+def use_apply(df: pd.DataFrame, id2newvalue: dict[int, Callable[[int], int]]):
+    df["value"] = df.apply(lambda row: id2newvalue[row["id"]](row["value"]), axis=1)
     return df
 ```
 
 ### Using `pd.DataFrame.mask`
 
 ```python
-def use_pd_mask(df: pd.DataFrame, id2newvalue: dict[int, int]):
+def use_pd_mask(df: pd.DataFrame, id2newvalue: dict[int, Callable[[int], int]]):
     for id in df["id"].unique():
-        df["value"].mask(df["id"] == id, id2newvalue[id], inplace=True)
+        df["value"].mask(df["id"] == id, df["value"].map(id2newvalue[id]), inplace=True)
     return df
 ```
 
 ### Using `np.where`
 
 ```python
-def use_np_where(df: pd.DataFrame, id2newvalue: dict[int, int]):
+def use_np_where(df: pd.DataFrame, id2newvalue: dict[int, Callable[[int], int]]):
     for id in df["id"].unique():
-        df["value"] = np.where(df["id"] == id, id2newvalue[id], df["value"])
+        df["value"] = np.where(df["id"] == id, df["value"].map(id2newvalue[id]), df["value"])
     return df
 ```
 
-### Using `map`
+### Using `map` and `pd.DataFrame.apply`
 
 ```python
-def use_map(df: pd.DataFrame, id2newvalue: dict[int, int]):
-    df["value"] = df["id"].map(id2newvalue)
+def use_map_and_apply(df: pd.DataFrame, id2newvalue: dict[int, Callable[[int], int]]):
+    df["_lambda"] = df["id"].map(id2newvalue)
+    df["value"] = df.apply(lambda row: row["_lambda"](row["value"]), axis=1)
     return df
 ```
 
@@ -148,7 +153,7 @@ def average_exec_time(
     df: pd.DataFrame,
     id2newvalue: dict[int, int],
     f: Callable,
-    n_experiments: int = 10
+    n_experiments: int = 3
 ) -> datetime.timedelta:
     exec_times = []
     for _ in range(n_experiments):
@@ -172,38 +177,39 @@ def generate_dataframe(n_ids: int, n_rows_per_id: int) -> pd.DataFrame:
             }
         )
         for id in range(n_ids)
-    ])
+    ]).reset_index(drop=True)
 ```
 
 ```python
-def generate_id2newvalue(dataframe: pd.DataFrame) -> dict[int, int]:
+def generate_id2newvalue(dataframe: pd.DataFrame) -> dict[int, Callable[[int], int]]:
     return {
-        _: _ * 2
+        _: lambda value: int(value * np.random.rand())
         for _ in dataframe["id"].unique()
     }
 ```
 
 ## Results
 
-|   n_ids |   n_rows_per_id |   n_experiments |   loc_exec_time |   groupby_exec_time |   apply_exec_time |   pd_mask_exec_time |   np_where_exec_time |   map_exec_time |
-|--------:|----------------:|---------------:|----------------:|--------------------:|------------------:|--------------------:|---------------------:|----------------:|
-|      10 |              10 |             10 |           3.812 |               3.743 |             1.484 |               7.325 |                3.185 |           0.936 |
-|      10 |             100 |             10 |           3.732 |               3.8   |             3.968 |               8.65  |                4.157 |           1.705 |
-|      10 |            1000 |             10 |           4.633 |               4.506 |            30.338 |               6.556 |                2.888 |           1.148 |
-|     100 |              10 |             10 |          33.925 |              23.513 |             3.502 |              74.271 |               43.083 |           1.748 |
-|     100 |             100 |             10 |          35.516 |              24.792 |            30.606 |              67.025 |               25.866 |           1.969 |
-|     100 |            1000 |             10 |          76.029 |              31.685 |           416.172 |              88.715 |               52.532 |           4.256 |
-|    1000 |              10 |             10 |         350.798 |             275.204 |            31.261 |             718.937 |              241.797 |           6.976 |
-|    1000 |             100 |             10 |         666.854 |             331.496 |           299.176 |             960.2   |              524.357 |           8.438 |
-|    1000 |            1000 |             10 |        3913.51  |             385.758 |          3289.46  |            3783.44  |             4967.53  |          30.878 |
+  n_ids |   n_rows_per_id |   n_experiments |   loc_exec_time |   groupby_exec_time |   apply_exec_time |   pd_mask_exec_time |   np_where_exec_time |   map_and_apply_exec_time |
+|--------:|----------------:|----------------:|----------------:|--------------------:|------------------:|--------------------:|---------------------:|--------------------------:|
+|      10 |              10 |               3 |          12.624 |               7.703 |             2.797 |              12.359 |                5.392 |                     6.028 |
+|      10 |             100 |               3 |          10.616 |               6.958 |            14.159 |              25.858 |               13.601 |                    13.542 |
+|      10 |            1000 |               3 |          28.073 |              15.779 |           206.288 |             100.877 |               99.615 |                   104.206 |
+|     100 |              10 |               3 |          86.349 |              47.872 |            14.867 |             192.608 |              122.889 |                    19.62  |
+|     100 |             100 |               3 |         105.755 |              56.326 |           127.586 |            1519.09  |             2104.67  |                    99.318 |
+|     100 |            1000 |               3 |         256.553 |             192.222 |          1263.7   |            9933.72  |             9944.58  |                  1002.69  |
+|    1000 |              10 |               3 |        1125.49  |             462.817 |           124.138 |           11143.4   |            10721.8   |                   108.833 |
+|    1000 |             100 |               3 |        1411.8   |             810.568 |          1236.71  |           97575.8   |            97159     |                  1025.93  |
+|    1000 |            1000 |               3 |        7240.26  |            1734.84  |         13115.8   |          972661     |           949273     |                 10632.3   |
 
 exec time unit: ms
 
 
-- The map method is the most efficient method,
-- The groupby method is relatively efficient, especially the case where n_ids=1000 and n_rows_per_id=1000 is not bad,
-- The other methods and are less efficient than the map and groupby methods,
-- The number of unique ids has a strong effect on the efficiency of the methods.
+- The groupby method is the most efficient method in many cases,
+- When n_rows_per_id=10 the apply method and the map and apply method are the most efficient methods,
+- The loc method is relatively efficient,
+- The other methods are less efficient,
+- The number of unique ids has a strong effect on the execution time.
 
 # References
 
