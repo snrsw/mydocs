@@ -16,7 +16,7 @@ lead = "Lightweight comparison of the execution time of different methods for up
 # TL;DR
 
 In this post, we consider the efficient methods of updating rows per group in Pandas. We compare the average execution time of different methods for different sizes of data to find the most efficient method.
-The result shows that the map method is the most efficient.
+The result shows that the groupby method is the most efficient in many cases.
 
 # Problem and Goals
 
