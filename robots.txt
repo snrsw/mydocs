@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://snrsw.github.io/mydocs/sitemap.xml

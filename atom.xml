@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>My Docs</title>
+    <subtitle>snrsw&#x27;s docs</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://snrsw.github.io/mydocs/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-03-01T21:55:57+09:00</updated>
+    <id>https://snrsw.github.io/mydocs/atom.xml</id>
+    <entry xml:lang="en">
+        <title>📆 The 4th week of Feb</title>
+        <published>2024-03-01T21:55:57+09:00</published>
+        <updated>2024-03-01T21:55:57+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/feb-4/"/>
+        <id>https://snrsw.github.io/mydocs/blog/feb-4/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/feb-4/">&lt;h1 id=&quot;articles&quot;&gt;Articles&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;programming&quot;&gt;Programming&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.blog&#x2F;2023-03-28-announcing-the-github-actions-extension-for-vs-code&#x2F;&quot;&gt;Announcing the GitHub Actions extension for VS Code&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;go.dev&#x2F;doc&#x2F;tutorial&#x2F;create-module&quot;&gt;Tutorial: Create a Go module - The Go Programming Language&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;go.dev&#x2F;doc&#x2F;code&quot;&gt;How to Write Go Code - The Go Programming Language&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;ml-dl&quot;&gt;ML &#x2F; DL&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;jp.mathworks.com&#x2F;help&#x2F;wavelet&#x2F;ug&#x2F;r-wave-detection-in-the-ecg.html&quot;&gt;ECG における R 波検出 - MATLAB &amp;amp; Simulink - MathWorks 日本&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;other&quot;&gt;Other&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;levtech&#x2F;articles&#x2F;9c33c2f6aca805&quot;&gt;年間700本ドキュメントを書く人間の技術ブログ執筆方法&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;t2y.hatenablog.jp&#x2F;entry&#x2F;2024&#x2F;02&#x2F;24&#x2F;154954&quot;&gt;(翻訳) GitLab 社で働くのはどのようなものだったか - forest book&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;github-trending&quot;&gt;GitHub Trending&lt;&#x2F;h1&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>📆 The 3rd week of Feb</title>
+        <published>2024-02-25T21:55:57+09:00</published>
+        <updated>2024-02-25T21:55:57+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/feb-3/"/>
+        <id>https://snrsw.github.io/mydocs/blog/feb-3/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/feb-3/">&lt;h1 id=&quot;articles&quot;&gt;Articles&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;programming&quot;&gt;Programming&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qiita.com&#x2F;hamamamama&#x2F;items&#x2F;11c17c7412a5aeb2ad74&quot;&gt;なぜファイルの末尾に改行を入れたほうが良いのか - Qiita&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;go-tour-jp.appspot.com&#x2F;&quot;&gt;A Tour of Go&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qiita.com&#x2F;tenntenn&#x2F;items&#x2F;0e33a4959250d1a55045&quot;&gt;Goの初心者が見ると幸せになれる場所　#golang - Qiita&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;methane.hatenablog.jp&#x2F;entry&#x2F;2024&#x2F;02&#x2F;21&#x2F;uv%E3%81%A8Rye&quot;&gt;uvとRye - methaneのブログ&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;go-proverbs.github.io&#x2F;&quot;&gt;Go Proverbs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;knsh14.github.io&#x2F;translations&#x2F;go-codereview-comments&#x2F;#copying&quot;&gt;Go Codereview Comments&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;postd.cc&#x2F;is-go-object-oriented&#x2F;&quot;&gt;Goはオブジェクト指向言語だろうか？&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;recursionist.io&#x2F;learn&#x2F;languages&#x2F;go&#x2F;complex&#x2F;slice&quot;&gt;Go言語 スライス&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;ml-dl&quot;&gt;ML &#x2F; DL&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;other&quot;&gt;Other&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;overreacted.io&#x2F;things-i-dont-know-as-of-2018&#x2F;&quot;&gt;Things I Don’t Know as of 2018 — overreacted&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;cloud.google.com&#x2F;run&#x2F;docs&#x2F;securing&#x2F;security?hl=ja&quot;&gt;セキュリティ設計の概要  |  Cloud Run のドキュメント  |  Google Cloud&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;levtech&#x2F;articles&#x2F;9ab9eea13a826d&quot;&gt;データベースを勉強したいあなたに送る技術書17冊(+11冊1講義7link)&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.blog&#x2F;2024-02-23-highlights-from-git-2-44&#x2F;&quot;&gt;Highlights from Git 2.44&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;github-trending&quot;&gt;GitHub Trending&lt;&#x2F;h1&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>📆 The 2nd week of Feb</title>
+        <published>2024-02-18T21:55:57+09:00</published>
+        <updated>2024-02-18T21:55:57+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/feb-2/"/>
+        <id>https://snrsw.github.io/mydocs/blog/feb-2/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/feb-2/">&lt;h1 id=&quot;articles&quot;&gt;Articles&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;programming&quot;&gt;Programming&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;fastapi.tiangolo.com&#x2F;ja&#x2F;tutorial&#x2F;&quot;&gt;FastAPI Learn チュートリアル - ユーザーガイド&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;fastapi.tiangolo.com&#x2F;ja&#x2F;async&#x2F;#in-a-hurry&quot;&gt;並行処理と async &#x2F; await&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;kenchon.github.io&#x2F;cohesive-code&quot;&gt;高凝集なコード&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.jonki.net&#x2F;entry&#x2F;2024&#x2F;02&#x2F;17&#x2F;232522&quot;&gt;pathlibをもっと使おう - The jonki&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;note.com&#x2F;keyem&#x2F;n&#x2F;nc6d879ed59a4&quot;&gt;ASGI とは｜keyem&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.atlassian.com&#x2F;ja&#x2F;git&#x2F;tutorials&#x2F;merging-vs-rebasing&quot;&gt;マージとリベース | Atlassian Git Tutorial&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;luup_developers&#x2F;articles&#x2F;data-hasegawa-20221222&quot;&gt;データ分析の健全性を保つために行っている機械的データチェック（Pandera）の話&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.inwt-statistics.com&#x2F;blog&#x2F;pandas-dataframe-validation-with-pydantic&quot;&gt;Pandas DataFrame Validation with Pydantic&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;ml-dl&quot;&gt;ML &#x2F; DL&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tjo.hatenablog.com&#x2F;entry&#x2F;2017&#x2F;02&#x2F;08&#x2F;190000&quot;&gt;Rで異常検知(2): 正規分布に従うデータからの異常検知（ホテリング理論・MT法） - 渋谷駅前で働くデータサイエンティストのブログ&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;axa.biopapyrus.jp&#x2F;machine-learning&#x2F;outlier-detection&#x2F;%E3%83%9B%E3%83%86%E3%83%AA%E3%83%B3%E3%82%B0%E7%90%86%E8%AB%96.html&quot;&gt;ホテリング理論 | カイ二乗分布を利用した外れ値検出&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.tryeting.jp&#x2F;column&#x2F;1413&#x2F;&quot;&gt;【自動化】異常検知の手法まとめ！導入のメリットと使用例も解説&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.brains-tech.co.jp&#x2F;impulse&#x2F;blog&#x2F;anomaly-detection-basics&#x2F;&quot;&gt;異常検知とは｜データ分析基礎知識 – AIとの関係性＆活用事例 | ブレインズテクノロジー株式会社&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gochikika.ntt.com&#x2F;Application&#x2F;anomaly_density_basic.html&quot;&gt;密度推定による異常検知の基礎&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;other&quot;&gt;Other&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ryo511.info&#x2F;archives&#x2F;3751&quot;&gt;『The Pragmatic Programmer』：知識のポートフォリオ&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;note.com&#x2F;erukiti&#x2F;n&#x2F;nbf7c7f898299&quot;&gt;プログラミング上達したい人に繰り返し読んで欲しい4冊改訂版｜erukiti&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;levtech&#x2F;articles&#x2F;9ab9eea13a826d&quot;&gt;データベースを勉強したいあなたに送る技術書17冊(+11冊1講義7link)&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;github-trending&quot;&gt;GitHub Trending&lt;&#x2F;h1&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>📆 The 1st week of Feb</title>
+        <published>2024-02-11T21:55:57+09:00</published>
+        <updated>2024-02-11T21:55:57+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/feb-1/"/>
+        <id>https://snrsw.github.io/mydocs/blog/feb-1/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/feb-1/">&lt;h1 id=&quot;articles&quot;&gt;Articles&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;programming&quot;&gt;Programming&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.atlassian.com&#x2F;ja&#x2F;git&#x2F;tutorials&#x2F;merging-vs-rebasing&quot;&gt;マージとリベース | Atlassian Git Tutorial&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qiita.com&#x2F;e99h2121&#x2F;items&#x2F;506d20d02953d227a790&quot;&gt;「レガシーコード改善ガイド」を読んだので、その要点&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ryo511.info&#x2F;archives&#x2F;3744&quot;&gt;スプラウトメソッドとラップメソッド&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www-ui.is.s.u-tokyo.ac.jp&#x2F;~takeo&#x2F;course&#x2F;2020&#x2F;algorithm&#x2F;index.html&quot;&gt;アルゴリズムとデータ構造 五十嵐健夫&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;speakerdeck.com&#x2F;kazaneya&#x2F;20240116&quot;&gt;アナリティクスエンジニアのキャリアとデータモデリング 〜資料「30分でわかるデータモデリング」を読む前に知ってほしいこと〜 &#x2F; 20240116&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;ml-dl&quot;&gt;ML &#x2F; DL&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;other&quot;&gt;Other&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;buildersbox.corp-sansan.com&#x2F;entry&#x2F;2024&#x2F;02&#x2F;02&#x2F;110000&quot;&gt;Bill One開発文化のおかげでOSSにコントリビュートできた話&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ryo511.info&#x2F;archives&#x2F;3751&quot;&gt;『The Pragmatic Programmer』：知識のポートフォリオ&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qiita.com&#x2F;e99h2121&#x2F;items&#x2F;b5c2497000c32d6fd3c3&quot;&gt;「エンジニアはテクニカルサポートを絶対にやったほうがいい」 - カスタマーサクセスエンジニア論 - Qiita&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;logmi.jp&#x2F;tech&#x2F;articles&#x2F;329276&quot;&gt;シニアエンジニアの先にある「スタッフエンジニア」という役職　書籍『Staff Engineer』から見る4つの役割&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;type.jp&#x2F;et&#x2F;feature&#x2F;22363&#x2F;&quot;&gt;【新潮流】管理職にならずに築く「スタッフエンジニア」のキャリアとは？ 増井雄一郎が説く“生涯技術屋”で生きる新しい選択肢 - エンジニアtype | 転職type&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;sizu.me&#x2F;ymdkit&#x2F;posts&#x2F;uw2e8m1s7ikf&quot;&gt;テキストコミュニケーションで意識していること｜ymdkit&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;t2y.hatenablog.jp&#x2F;entry&#x2F;2023&#x2F;09&#x2F;03&#x2F;011023&quot;&gt;(翻訳) ビッグテックのプロジェクトマネジメントとスクラム不在の謎 - forest book&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;nowokay.hatenablog.com&#x2F;entry&#x2F;20121010&#x2F;1349838665&quot;&gt;プログラマの実力は経験だけであがらないことがレベル格差につながる - きしだのHatena&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;note.com&#x2F;apfels&#x2F;n&#x2F;n3764ec50a503&quot;&gt;BIチームが語るUbieのデータ利活用最前線（前編）｜kazuki-togawa&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qiita.com&#x2F;kntr0116&#x2F;items&#x2F;302d5e379505089780d2&quot;&gt;生産性向上のために身に着けたい10のこと - Qiita&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;github-trending&quot;&gt;GitHub Trending&lt;&#x2F;h1&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>🍉 Casual execution time comparison: updating rows per group in Pandas</title>
+        <published>2024-02-09T03:28:57+09:00</published>
+        <updated>2024-02-09T03:28:57+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/exec-time-comparison-inserting-rows-by-groups-in-pandas/"/>
+        <id>https://snrsw.github.io/mydocs/blog/exec-time-comparison-inserting-rows-by-groups-in-pandas/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/exec-time-comparison-inserting-rows-by-groups-in-pandas/">&lt;h1 id=&quot;tl-dr&quot;&gt;TL;DR&lt;&#x2F;h1&gt;
+&lt;p&gt;In this post, we consider the efficient methods of updating rows per group in Pandas. We compare the average execution time of different methods for different sizes of data to find the most efficient method.
+The result shows that the groupby method is the most efficient in many cases.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;problem-and-goals&quot;&gt;Problem and Goals&lt;&#x2F;h1&gt;
+&lt;p&gt;The problem of updating rows per group is described as follows:&lt;&#x2F;p&gt;
+&lt;p&gt;Input:&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;id&lt;&#x2F;th&gt;&lt;th&gt;value&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;A&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;A&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;B&lt;&#x2F;td&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;B&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;C&lt;&#x2F;td&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;Task:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Update the value per group
+&lt;ul&gt;
+&lt;li&gt;Let us update the value of id A to value * 2, id B to value * 10, and id C to value + 1.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Output:&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;id&lt;&#x2F;th&gt;&lt;th&gt;value&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;A&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;A&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;B&lt;&#x2F;td&gt;&lt;td&gt;30&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;B&lt;&#x2F;td&gt;&lt;td&gt;40&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;C&lt;&#x2F;td&gt;&lt;td&gt;6&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;The goal of this post is to compare the efficiency of different methods for updating rows per group in Pandas.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;experiment&quot;&gt;Experiment&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;environment&quot;&gt;Environment&lt;&#x2F;h2&gt;
+&lt;p&gt;All codes are executed in Google Colabratory with CPU.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;methods-of-updating-rows-per-group&quot;&gt;Methods of updating rows per group&lt;&#x2F;h2&gt;
+&lt;p&gt;We consider the following methods for updating rows per group in Pandas:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using &lt;code&gt;pd.DataFrame.loc&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Using &lt;code&gt;pd.DataFrame.groupby&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Using &lt;code&gt;pd.DataFrame.apply&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Using &lt;code&gt;pd.DataFrame.mask&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Using &lt;code&gt;np.where&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Using &lt;code&gt;map&lt;&#x2F;code&gt; and &lt;code&gt;pd.DataFrame.apply&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;(I think these are common methods for updating rows per group in Pandas. If you know other efficient methods, please let me know.)&lt;&#x2F;p&gt;
+&lt;p&gt;In detail, the following functions are used for each method: Note that &lt;code&gt;id2newvalue&lt;&#x2F;code&gt; is tasks represented by a dictionary that has the mapping from id to function for updating the value. This is defined by&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;generate_id2newvalue&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;dataframe&lt;&#x2F;span&gt;&lt;span&gt;: pd.DataFrame) -&amp;gt; dict[int, Callable[[int], int]]:
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;_&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;lambda &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt;(value * np.random.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;rand&lt;&#x2F;span&gt;&lt;span&gt;())
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;_ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span&gt;dataframe[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;].&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;unique&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;using-pd-dataframe-loc&quot;&gt;Using &lt;code&gt;pd.DataFrame.loc&lt;&#x2F;code&gt;&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;use_loc&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;df&lt;&#x2F;span&gt;&lt;span&gt;: pd.DataFrame, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id2newvalue&lt;&#x2F;span&gt;&lt;span&gt;: dict[int, Callable[[int], int]]) -&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;None&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;id &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span&gt;df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;].&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;unique&lt;&#x2F;span&gt;&lt;span&gt;():
+&lt;&#x2F;span&gt;&lt;span&gt;        df.loc[df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;] == &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;] = df.loc[df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;] == &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;].&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;map&lt;&#x2F;span&gt;&lt;span&gt;(id2newvalue[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;])
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span&gt;df
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;using-pd-dataframe-groupby&quot;&gt;Using &lt;code&gt;pd.DataFrame.groupby&lt;&#x2F;code&gt;&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;use_groupby&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;df&lt;&#x2F;span&gt;&lt;span&gt;: pd.DataFrame, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id2newvalue&lt;&#x2F;span&gt;&lt;span&gt;: dict[int, Callable[[int], int]]) -&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;None&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span&gt;pd.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;concat&lt;&#x2F;span&gt;&lt;span&gt;(
+&lt;&#x2F;span&gt;&lt;span&gt;        [
+&lt;&#x2F;span&gt;&lt;span&gt;            gdf.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;assign&lt;&#x2F;span&gt;&lt;span&gt;(
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;lambda &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;df&lt;&#x2F;span&gt;&lt;span&gt;: df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;].&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;map&lt;&#x2F;span&gt;&lt;span&gt;(id2newvalue[g])
+&lt;&#x2F;span&gt;&lt;span&gt;            )
+&lt;&#x2F;span&gt;&lt;span&gt;            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span&gt;g, gdf &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span&gt;df.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;groupby&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;)
+&lt;&#x2F;span&gt;&lt;span&gt;        ]
+&lt;&#x2F;span&gt;&lt;span&gt;    )
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;using-pd-dataframe-apply&quot;&gt;Using &lt;code&gt;pd.DataFrame.apply&lt;&#x2F;code&gt;&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;use_apply&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;df&lt;&#x2F;span&gt;&lt;span&gt;: pd.DataFrame, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id2newvalue&lt;&#x2F;span&gt;&lt;span&gt;: dict[int, Callable[[int], int]]):
+&lt;&#x2F;span&gt;&lt;span&gt;    df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;] = df.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;apply&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;lambda &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;row&lt;&#x2F;span&gt;&lt;span&gt;: id2newvalue[row[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;]](row[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;]), &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;axis&lt;&#x2F;span&gt;&lt;span&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span&gt;df
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;using-pd-dataframe-mask&quot;&gt;Using &lt;code&gt;pd.DataFrame.mask&lt;&#x2F;code&gt;&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;use_pd_mask&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;df&lt;&#x2F;span&gt;&lt;span&gt;: pd.DataFrame, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id2newvalue&lt;&#x2F;span&gt;&lt;span&gt;: dict[int, Callable[[int], int]]):
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;id &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span&gt;df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;].&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;unique&lt;&#x2F;span&gt;&lt;span&gt;():
+&lt;&#x2F;span&gt;&lt;span&gt;        df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;].&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;mask&lt;&#x2F;span&gt;&lt;span&gt;(df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;] == &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;, df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;].&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;map&lt;&#x2F;span&gt;&lt;span&gt;(id2newvalue[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;]), &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;inplace&lt;&#x2F;span&gt;&lt;span&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;True&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span&gt;df
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;using-np-where&quot;&gt;Using &lt;code&gt;np.where&lt;&#x2F;code&gt;&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;use_np_where&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;df&lt;&#x2F;span&gt;&lt;span&gt;: pd.DataFrame, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id2newvalue&lt;&#x2F;span&gt;&lt;span&gt;: dict[int, Callable[[int], int]]):
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;id &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span&gt;df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;].&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;unique&lt;&#x2F;span&gt;&lt;span&gt;():
+&lt;&#x2F;span&gt;&lt;span&gt;        df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;] = np.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;where&lt;&#x2F;span&gt;&lt;span&gt;(df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;] == &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;, df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;].&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;map&lt;&#x2F;span&gt;&lt;span&gt;(id2newvalue[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;]), df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;])
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span&gt;df
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;using-map-and-pd-dataframe-apply&quot;&gt;Using &lt;code&gt;map&lt;&#x2F;code&gt; and &lt;code&gt;pd.DataFrame.apply&lt;&#x2F;code&gt;&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;use_map_and_apply&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;df&lt;&#x2F;span&gt;&lt;span&gt;: pd.DataFrame, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id2newvalue&lt;&#x2F;span&gt;&lt;span&gt;: dict[int, Callable[[int], int]]):
+&lt;&#x2F;span&gt;&lt;span&gt;    df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;_lambda&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;] = df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;].&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;map&lt;&#x2F;span&gt;&lt;span&gt;(id2newvalue)
+&lt;&#x2F;span&gt;&lt;span&gt;    df[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;] = df.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;apply&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;lambda &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;row&lt;&#x2F;span&gt;&lt;span&gt;: row[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;_lambda&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;](row[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;]), &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;axis&lt;&#x2F;span&gt;&lt;span&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span&gt;df
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;data-and-its-size&quot;&gt;Data and its size&lt;&#x2F;h2&gt;
+&lt;p&gt;The size of the data is defined as a pair of the number of unique ids and the number of rows per id. The data is generated by the following functions:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;generate_dataframe&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;n_ids&lt;&#x2F;span&gt;&lt;span&gt;: int, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;n_rows_per_id&lt;&#x2F;span&gt;&lt;span&gt;: int) -&amp;gt; pd.DataFrame:
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span&gt;pd.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;concat&lt;&#x2F;span&gt;&lt;span&gt;([
+&lt;&#x2F;span&gt;&lt;span&gt;        pd.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;DataFrame&lt;&#x2F;span&gt;&lt;span&gt;(
+&lt;&#x2F;span&gt;&lt;span&gt;            {
+&lt;&#x2F;span&gt;&lt;span&gt;                &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;] * n_rows_per_id,
+&lt;&#x2F;span&gt;&lt;span&gt;                &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;] * n_rows_per_id
+&lt;&#x2F;span&gt;&lt;span&gt;            }
+&lt;&#x2F;span&gt;&lt;span&gt;        )
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;id &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;range&lt;&#x2F;span&gt;&lt;span&gt;(n_ids)
+&lt;&#x2F;span&gt;&lt;span&gt;    ]).&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;reset_index&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;drop&lt;&#x2F;span&gt;&lt;span&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;True&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;comparison-methods&quot;&gt;Comparison Methods&lt;&#x2F;h2&gt;
+&lt;p&gt;We compare the average execution time of the above methods for different sizes of data.&lt;&#x2F;p&gt;
+&lt;p&gt;The average execution time is calculated by the following functions:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# use as a decorator to measure the execution time of a function
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;log_exec_time&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span&gt;: Callable) -&amp;gt; Callable:
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;_wrapper&lt;&#x2F;span&gt;&lt;span&gt;(*&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;args&lt;&#x2F;span&gt;&lt;span&gt;: Any, **&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;kwargs&lt;&#x2F;span&gt;&lt;span&gt;: Any) -&amp;gt; Any:
+&lt;&#x2F;span&gt;&lt;span&gt;        start = datetime.datetime.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;now&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;        v = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span&gt;(*args, **kwargs)
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;        end = datetime.datetime.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;now&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span&gt;        exec_time = end - start
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;{f.__name__}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt; execution time: &lt;&#x2F;span&gt;&lt;span&gt;{exec_time}&amp;quot;)
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span&gt;v, exec_time
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span&gt;_wrapper
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# calculate the average execution time of a function decorated by `log_exec_time`
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;average_exec_time&lt;&#x2F;span&gt;&lt;span&gt;(
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;df&lt;&#x2F;span&gt;&lt;span&gt;: pd.DataFrame,
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id2newvalue&lt;&#x2F;span&gt;&lt;span&gt;: dict[int, int],
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span&gt;: Callable,
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;n_experiments&lt;&#x2F;span&gt;&lt;span&gt;: int = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;3
+&lt;&#x2F;span&gt;&lt;span&gt;) -&amp;gt; datetime.timedelta:
+&lt;&#x2F;span&gt;&lt;span&gt;    exec_times = []
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;_ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;range&lt;&#x2F;span&gt;&lt;span&gt;(n_experiments):
+&lt;&#x2F;span&gt;&lt;span&gt;        result, exec_time = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;df&lt;&#x2F;span&gt;&lt;span&gt;=df.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;copy&lt;&#x2F;span&gt;&lt;span&gt;(), &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id2newvalue&lt;&#x2F;span&gt;&lt;span&gt;=id2newvalue)
+&lt;&#x2F;span&gt;&lt;span&gt;        exec_times.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;append&lt;&#x2F;span&gt;&lt;span&gt;(exec_time)
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    exec_time_mean = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;sum&lt;&#x2F;span&gt;&lt;span&gt;(exec_times, datetime.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;timedelta&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span&gt;)) &#x2F; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;len&lt;&#x2F;span&gt;&lt;span&gt;(exec_times)
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span&gt;exec_time_mean
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: right&quot;&gt;n_ids&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: right&quot;&gt;n_rows_per_id&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: right&quot;&gt;n_experiments&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: right&quot;&gt;loc_exec_time&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: right&quot;&gt;groupby_exec_time&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: right&quot;&gt;apply_exec_time&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: right&quot;&gt;pd_mask_exec_time&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: right&quot;&gt;np_where_exec_time&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: right&quot;&gt;map_and_apply_exec_time&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;10&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;10&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;3&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;12.624&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;7.703&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;2.797&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;12.359&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;5.392&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;6.028&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;10&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;100&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;3&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;10.616&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;6.958&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;14.159&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;25.858&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;13.601&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;13.542&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;10&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;1000&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;3&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;28.073&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;15.779&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;206.288&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;100.877&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;99.615&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;104.206&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;100&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;10&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;3&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;86.349&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;47.872&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;14.867&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;192.608&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;122.889&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;19.62&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;100&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;100&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;3&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;105.755&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;56.326&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;127.586&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;1519.09&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;2104.67&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;99.318&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;100&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;1000&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;3&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;256.553&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;192.222&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;1263.7&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;9933.72&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;9944.58&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;1002.69&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;1000&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;10&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;3&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;1125.49&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;462.817&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;124.138&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;11143.4&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;10721.8&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;108.833&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;1000&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;100&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;3&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;1411.8&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;810.568&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;1236.71&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;97575.8&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;97159&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;1025.93&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;1000&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;1000&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;3&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;7240.26&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;1734.84&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;13115.8&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;972661&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;949273&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;10632.3&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;exec time unit: ms&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The groupby method is the most efficient method in many cases,&lt;&#x2F;li&gt;
+&lt;li&gt;When n_rows_per_id=10 the apply method and the map and apply method are the most efficient methods,&lt;&#x2F;li&gt;
+&lt;li&gt;The loc method is relatively efficient,&lt;&#x2F;li&gt;
+&lt;li&gt;The other methods are less efficient,&lt;&#x2F;li&gt;
+&lt;li&gt;The number of unique ids has a strong effect on the execution time.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;references&quot;&gt;References&lt;&#x2F;h1&gt;
+&lt;p&gt;For more details, please see the following notebook:
+&lt;a href=&quot;https:&#x2F;&#x2F;colab.research.google.com&#x2F;drive&#x2F;1j5BHKRA1VfLR00HPgoEFy_Sfz6UwWtX0?usp=sharing&quot;&gt;Google Colabratory&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>📆 The 5th week of Jan</title>
+        <published>2024-02-04T21:55:57+09:00</published>
+        <updated>2024-02-04T21:55:57+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/jan-5/"/>
+        <id>https://snrsw.github.io/mydocs/blog/jan-5/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/jan-5/">&lt;h1 id=&quot;articles&quot;&gt;Articles&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;programming&quot;&gt;Programming&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;62011741&#x2F;pydantic-dataclass-vs-basemodel&quot;&gt;Pydantic: dataclass vs BaseModel&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;speakerdeck.com&#x2F;atty303&#x2F;liang-isohutoueatokodorebiyu&quot;&gt;良いソフトウェアとコードレビュー &#x2F; Good software and code review&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;t.co&#x2F;zqFsv4cx1C&quot;&gt;オブジェクト指向のその前に-凝集度と結合度&#x2F;Coheision-Coupling&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;note.com&#x2F;cyberz_cto&#x2F;n&#x2F;n26f535d6c575&quot;&gt;良いコードとは何か - エンジニア新卒研修 スライド公開&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qiita.com&#x2F;TrashBoxx&#x2F;items&#x2F;7a76e46122191529c526&quot;&gt;Pythonの抽象クラス(ABCmeta)を詳しく説明したい&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;elfi-y.medium.com&#x2F;inheritance-in-python-with-abstract-base-class-abc-5e3b8e910e5e#:~:text=So%20what&quot;&gt;Inheritance in Python with Abstract Base Class(ABC)&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;future-architect.github.io&#x2F;articles&#x2F;20230406a&#x2F;&quot;&gt;Terraformに入門して1ヶ月経ったので、初心者が気をつけるべきポイントを書いてみる | フューチャー技術ブログ&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;ml-dl&quot;&gt;ML &#x2F; DL&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;albumentations-team&#x2F;albumentations&#x2F;issues&#x2F;765&quot;&gt;what‘s the difference between albumentations and torchvision? #765&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;techblog.zozo.com&#x2F;entry&#x2F;datamart_on_github&quot;&gt;GitHubで管理されたデータマート構築基盤の紹介 - ZOZO TECH BLOG&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.kaggle.com&#x2F;competitions&#x2F;hms-harmful-brain-activity-classification&#x2F;discussion&#x2F;472976&quot;&gt;Grad Cam - What is important in Spectrograms?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.kaggle.com&#x2F;competitions&#x2F;hms-harmful-brain-activity-classification&#x2F;discussion&#x2F;471666&quot;&gt;1D ResNet Based Architecture Baseline - Achieve 0.4x LB with Raw Signals in 2 minutes&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;other&quot;&gt;Other&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;dev.classmethod.jp&#x2F;articles&#x2F;gcp-bigquery-dataset-overview-studying&#x2F;&quot;&gt;GCP: BigQueryにおける「データセット」の作成と管理を理解する&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ubansi.com&#x2F;bigquery-as-a-big-data-infrastructure&#x2F;&quot;&gt;BigQueryを軸にした大規模データ分析基盤の設計をする前に知っておきたいこと&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;speakerdeck.com&#x2F;kazk1018&#x2F;dbttobigquerydeshi-merudata-vaultru-men&quot;&gt;dbtとBigQueryで始めるData Vault入門&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;belonginc.dev&#x2F;members&#x2F;ttyfky&#x2F;posts&#x2F;dbtvault-bigquery-demo-published&quot;&gt;Data Vault 2.0 の紹介と BigQuery で動く dbtvault のデモ&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;wakabame.hatenablog.com&#x2F;entry&#x2F;2024&#x2F;02&#x2F;01&#x2F;102321&quot;&gt;ゆっくり仕事をするインセンティブ - わかばめにっき&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qualities.jp&#x2F;offer&#x2F;article&#x2F;fcc2023_shima&quot;&gt;Googleを辞めて福岡でエンジニアとして“最高の人生”を送っている人の話｜Qualities Offer&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;speakerdeck.com&#x2F;soudai&#x2F;soudai-kickoff&quot;&gt;「GitLabに学ぶ 世界最先端のリモート組織のつくりかた」の輪読会のススメ - そーだいなる輪読会キックオフ &#x2F; soudai-kickoff&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;sizu.me&#x2F;kaityo256&#x2F;posts&#x2F;rbemvb4696a5&quot;&gt;数値計算の面白さ｜ロボ太&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;github-trending&quot;&gt;GitHub Trending&lt;&#x2F;h1&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>📆 The 4th week of Jan</title>
+        <published>2024-01-28T21:55:57+09:00</published>
+        <updated>2024-01-28T21:55:57+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/jan-4/"/>
+        <id>https://snrsw.github.io/mydocs/blog/jan-4/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/jan-4/">&lt;h1 id=&quot;articles&quot;&gt;Articles&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;programming&quot;&gt;Programming&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;rebi&#x2F;articles&#x2F;28c7f1fee5730a&quot;&gt;RDBのデータモデリング・テーブル設計の際に参考にしている考え方と資料&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.terraform-best-practices.com&#x2F;&quot;&gt;Terraform Best Practice&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;techblog.kazaneya.com&#x2F;20231215-dataform-dbt-snapshot&#x2F;&quot;&gt;dataformのSCDパッケージとdbtのsnapshot機能を比較してみた&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;discourse.getdbt.com&#x2F;t&#x2F;how-to-create-updated-at-and-created-at-columns-in-incremental-model&#x2F;10029&quot;&gt;How to create updated_at and created_at columns in incremental model?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;dev.classmethod.jp&#x2F;articles&#x2F;dbt-materialization-incremental&#x2F;&quot;&gt;[dbt] 「incremental」というMaterializationを使ってデータモデルを増分更新する&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;ml-dl&quot;&gt;ML &#x2F; DL&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;other&quot;&gt;Other&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.lucidchart.com&#x2F;pages&#x2F;ja&#x2F;work-breakdown-structure&quot;&gt;プロジェクト管理に欠かせない WBSとは？&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;aws.amazon.com&#x2F;jp&#x2F;what-is&#x2F;cidr&quot;&gt;CIDRとは？&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;cloud.google.com&#x2F;vpc&#x2F;docs&#x2F;serverless-vpc-access?hl=ja&quot;&gt;サーバーレス VPC アクセス&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;cloud.google.com&#x2F;security-command-center&#x2F;docs&#x2F;concepts-vulnerabilities-findings?hl=ja#compute-instance-findings&quot;&gt;Compute インスタンスの脆弱性の検出&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;cloud_ace&#x2F;articles&#x2F;compute-engine-security&quot;&gt;Google Compute Engineのセキュリティチェックポイント&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www5e.biglobe.ne.jp&#x2F;aji&#x2F;30min&#x2F;01.html&quot;&gt;30分間ネットワーキング 第１回CIDR&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;cloud.google.com&#x2F;nat&#x2F;docs&#x2F;overview?hl=ja&quot;&gt;Cloud NAT の概要&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.estie.jp&#x2F;blog&#x2F;entry&#x2F;2024&#x2F;01&#x2F;22&#x2F;195221&quot;&gt;チームの壁を越えろ スタッフエンジニア経験者にインタビュー&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;trunkbaseddevelopment.com&#x2F;&quot;&gt;Trunk Based Development&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.atlassian.com&#x2F;ja&#x2F;continuous-delivery&#x2F;continuous-integration&#x2F;trunk-based-development&quot;&gt;トランク ベース開発&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;dev.classmethod.jp&#x2F;articles&#x2F;https-code-visualstudio-com-docs-editor-github-copilot&#x2F;&quot;&gt;GitHub Copilot in VS Code で、作業内容からコミットメッセージを生成可能になりました&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;tsuruo&#x2F;articles&#x2F;57af6c4eedf5c2&quot;&gt;Google製のクラウド開発環境 Project IDX が良い感じだった&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;github-trending&quot;&gt;GitHub Trending&lt;&#x2F;h1&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>📆 The 3rd week of Jan</title>
+        <published>2024-01-21T21:55:57+09:00</published>
+        <updated>2024-01-21T21:55:57+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/jan-3/"/>
+        <id>https://snrsw.github.io/mydocs/blog/jan-3/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/jan-3/">&lt;h1 id=&quot;articles&quot;&gt;Articles&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;programming&quot;&gt;Programming&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;tsuruo&#x2F;articles&#x2F;57af6c4eedf5c2&quot;&gt;Google製のクラウド開発環境 Project IDX が良い感じだった&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.blog&#x2F;jp&#x2F;2021-08-30-githubs-engineering-team-moved-codespaces&#x2F;&quot;&gt;GitHub開発チームでのCodespacesの利用&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-jp.rs&#x2F;rust-by-example-ja&#x2F;index.html&quot;&gt;Rust by Example 日本語版&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;shimakaze_soft&#x2F;scraps&#x2F;b1d42a2b13ab8d&quot;&gt;Pythonのメモリ管理&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;fraim&#x2F;articles&#x2F;98ad17f9ed140e&quot;&gt;雰囲気でbuildx&#x2F;BuildKitを使っていたので調べました&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;ml-dl&quot;&gt;ML &#x2F; DL&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;engineers.safie.link&#x2F;entry&#x2F;2023&#x2F;01&#x2F;27&#x2F;Data_Vault_%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B&quot;&gt;Data Vault モデリングのご紹介 - Safie Engineers&#x27; Blog!&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.databricks.com&#x2F;jp&#x2F;glossary&#x2F;data-vault&quot;&gt;データボルト databricks&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;tenajima&#x2F;articles&#x2F;vorwm4h1h3fkrg58&quot;&gt;データモデリングによって何を解決したいのか&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;other&quot;&gt;Other&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qiita.com&#x2F;koheisato&#x2F;items&#x2F;7f2e604233372af35b41&quot;&gt;自作した時間割アプリが大学の公式アプリに採用された話&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.atlassian.com&#x2F;ja&#x2F;continuous-delivery&#x2F;continuous-integration&#x2F;trunk-based-development&quot;&gt;トランク ベース開発&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.estie.jp&#x2F;blog&#x2F;entry&#x2F;2024&#x2F;01&#x2F;15&#x2F;113102&quot;&gt;スタッフエンジニアのおしごと！ - estie inside blog&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.agile-studio.jp&#x2F;post&#x2F;apm-sprint-retrospective&quot;&gt;スプリントレトロスペクティブ | Agile Studio&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;github-trending&quot;&gt;GitHub Trending&lt;&#x2F;h1&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>📆 The 2st week of Jan</title>
+        <published>2024-01-14T21:55:57+09:00</published>
+        <updated>2024-01-14T21:55:57+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/jan-2/"/>
+        <id>https://snrsw.github.io/mydocs/blog/jan-2/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/jan-2/">&lt;h1 id=&quot;articles&quot;&gt;Articles&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;programming&quot;&gt;Programming&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.getdbt.com&#x2F;analytics-engineering&#x2F;modular-data-modeling-technique&quot;&gt;Data modeling techniques for more modularity&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;kou_pg_0131&#x2F;articles&#x2F;favorite-cli-tools&quot;&gt;お気に入りのコマンドラインツールを淡々と紹介する&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;ml-dl&quot;&gt;ML &#x2F; DL&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.kaggle.com&#x2F;competitions&#x2F;child-mind-institute-detect-sleep-states&#x2F;discussion&#x2F;459715&quot;&gt;1st place solution Child Mind Institute - Detect Sleep States&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.kaggle.com&#x2F;competitions&#x2F;child-mind-institute-detect-sleep-states&#x2F;discussion&#x2F;459627&quot;&gt;2nd place solution Child Mind Institute - Detect Sleep States&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;other&quot;&gt;Other&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;ficilcom&#x2F;articles&#x2F;tech-blog-short&quot;&gt;技術ブログもShortの時代になった&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.publickey1.jp&#x2F;blog&#x2F;24&#x2F;githubmac_minigithub.html&quot;&gt;GitHubのデータセンターでは、Mac miniを分解して取り出したメイン基盤をラックマウントに使っている&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;note.com&#x2F;kazaneya&#x2F;n&#x2F;nf4c018df9610&quot;&gt;風音屋のレビュー文化を体現する「183の精神」について｜風音屋（かざねや）&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;speakerdeck.com&#x2F;shinichi9987&#x2F;the-agile-development-elements-and-current-approach-as-seen-in-prius-development-sequel&quot;&gt;プリウス開発に見るアジャイル開発要素と今時の進め方：続編 &#x2F; The Agile Development Elements and Current Approach as Seen in Prius Development: Sequel&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;github-trending&quot;&gt;GitHub Trending&lt;&#x2F;h1&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>📆 The 1st week of Jan</title>
+        <published>2024-01-07T23:59:59+09:00</published>
+        <updated>2024-01-07T23:59:59+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/jan-1/"/>
+        <id>https://snrsw.github.io/mydocs/blog/jan-1/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/jan-1/">&lt;h1 id=&quot;articles&quot;&gt;Articles&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;programming&quot;&gt;Programming&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zenn.dev&#x2F;magurotuna&#x2F;articles&#x2F;rust-at-work&quot;&gt;RustでWebバックエンドを書き始めてから1年くらい経った&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;ml-dl&quot;&gt;ML &#x2F; DL&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;xgboost.readthedocs.io&#x2F;en&#x2F;stable&#x2F;tutorials&#x2F;model.html&quot;&gt;Introduction to Boosted Trees&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tech.preferred.jp&#x2F;ja&#x2F;blog&#x2F;fine-tuning-for-medical-image-fundation-model&#x2F;&quot;&gt;医用画像セグメンテーションに向けた基盤モデルの fine-tuning 手法の検討&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tech.preferred.jp&#x2F;ja&#x2F;blog&#x2F;extending-multiple-instance-learning-using-lesion-annotation&#x2F;&quot;&gt;少数の病変部位アノテーションを活用したMultiple Instance Learningの拡張&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dmlc&#x2F;xgboost&#x2F;issues&#x2F;2106&quot;&gt;Is it necessary to get rid of useless features in the classification task in XGBoost?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;forecastegy.com&#x2F;posts&#x2F;can-gradient-boosting-learn-simple-arithmetic&#x2F;&quot;&gt;Can Gradient Boosting Learn Simple Arithmetic?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dmlc&#x2F;xgboost&#x2F;issues&#x2F;4069&quot;&gt;XGBoost has trouble modeling multiplication&#x2F;division #4069&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;other&quot;&gt;Other&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;sizu.me&#x2F;helloyuki&#x2F;posts&#x2F;ubverm6hfxm7&quot;&gt;毎日始業直後25分の技術キャッチアップがよくワークしている話&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;sizu.me&#x2F;helloyuki&#x2F;posts&#x2F;mabo08sznt71&quot;&gt;日系企業のキャリアラダー上のIC&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;pr.forkwell.com&#x2F;tech_event_reports&#x2F;staff-engineer&#x2F;&quot;&gt;「スタッフエンジニアとは？役割・スキル・キャリアパスを徹底解説！」増井 雄一郎&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;note.com&#x2F;k1ito&#x2F;n&#x2F;n58ab7554ff51&quot;&gt;新規事業・スタートアップやりたいと言っていた1年前の自分に言ってあげたい言葉&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;blog-dry.com&#x2F;entry&#x2F;2024&#x2F;01&#x2F;02&#x2F;221530&quot;&gt;2023年、読んで印象に残った本&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;rework.withgoogle.com&#x2F;jp&#x2F;guides&#x2F;set-goals-with-okrs#introduction&quot;&gt;OKRを設定する&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;github-trending&quot;&gt;GitHub Trending&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;myshell-ai&#x2F;OpenVoice&quot;&gt;myshell-ai&#x2F;OpenVoice&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mlabonne&#x2F;llm-course&quot;&gt;mlabonne&#x2F;llm-course&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tyxsspa&#x2F;AnyText&quot;&gt;tyxsspa&#x2F;AnyText&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;donnemartin&#x2F;system-design-primer&quot;&gt;donnemartin&#x2F;system-design-primer&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;movie-web&#x2F;movie-web&quot;&gt;movie-web&#x2F;movie-web&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;coqui-ai&#x2F;TTS&quot;&gt;coqui-ai&#x2F;TTS&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>🍞 OKR 2024 Q1</title>
+        <published>2024-01-04T15:46:13+09:00</published>
+        <updated>2024-01-04T15:46:13+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/okr-2024-q1/"/>
+        <id>https://snrsw.github.io/mydocs/blog/okr-2024-q1/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/okr-2024-q1/">&lt;p&gt;2024-01-01 から 2024-03-31 までの OKR を設定してみる．本を読む系が多く，かなり重くなってしまったが，そういうものだしまあいいか．&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;objective-shu-xue-woji-sok-suru&quot;&gt;Objective: 数学を継続する&lt;&#x2F;h1&gt;
+&lt;p&gt;去年は本格的に働き始めたこともあって，数学に充てる時間がずいぶん減った．特に教科書や論文を読むようような継続的に時間を取るタイプの数学が減った．悲しいので意識的に時間を作りたい．&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-representation-theory-a-first-course-wodu-mu&quot;&gt;Key Result: &lt;a href=&quot;https:&#x2F;&#x2F;amzn.asia&#x2F;d&#x2F;9Mv8E71&quot;&gt;Representation Theory: A First Course&lt;&#x2F;a&gt; を読む&lt;&#x2F;h2&gt;
+&lt;p&gt;リー理論を復習しつつ，古典型の表現論に親しみたい．具体例をいじくり回す方針で基礎をやり直したい気分．&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-xue-bu-noshu-xue-wofu-xi-suru&quot;&gt;Key Result: 学部の数学を復習する&lt;&#x2F;h2&gt;
+&lt;p&gt;ゆっくり時間を使って基礎をやり直したい気分．ついでに取りこぼしも補完したい．&lt;a href=&quot;https:&#x2F;&#x2F;amzn.asia&#x2F;d&#x2F;5ctYPCS&quot;&gt;All the Math You Missed&lt;&#x2F;a&gt; は気持ちがわかる．&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;objective-ds-denochang-shi-woshen-nitukeru&quot;&gt;Objective: DS&#x2F;DEの常識を身につける&lt;&#x2F;h1&gt;
+&lt;p&gt;やらないといけないことはたくさんあるが，この段階で基礎っぽいことを改めてちゃんとしておきたい．機械学習系は&lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;tmaehara&#x2F;status&#x2F;1644230083308134403&quot;&gt;@tmaeharaさんのガイド&lt;&#x2F;a&gt;に従って．&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-the-hundred-page-machine-learning-book-wodu-mu&quot;&gt;Key Result: &lt;a href=&quot;https:&#x2F;&#x2F;amzn.eu&#x2F;d&#x2F;bqaVUDr&quot;&gt;The Hundred-Page Machine Learning Book&lt;&#x2F;a&gt; を読む&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;tmaehara&#x2F;status&#x2F;1644230083308134403&quot;&gt;@tmaeharaさんのガイド&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-understanding-machine-learning-from-theory-to-algorithms-wodu-mu&quot;&gt;Key Result: &lt;a href=&quot;https:&#x2F;&#x2F;amzn.eu&#x2F;d&#x2F;bbrbdWZ&quot;&gt;Understanding Machine Learning: From Theory to Algorithms&lt;&#x2F;a&gt; を読む&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;tmaehara&#x2F;status&#x2F;1644230083308134403&quot;&gt;@tmaeharaさんのガイド&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-kagglenokonpenican-jia-suru&quot;&gt;Key Result: Kaggleのコンペに参加する&lt;&#x2F;h2&gt;
+&lt;p&gt;画像系を頑張りたい．&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-detazhi-xiang-apurikesiyondezain-wodu-mu&quot;&gt;Key Result: &lt;a href=&quot;https:&#x2F;&#x2F;amzn.asia&#x2F;d&#x2F;2UXjNzi&quot;&gt;データ指向アプリケーションデザイン&lt;&#x2F;a&gt; を読む&lt;&#x2F;h2&gt;
+&lt;p&gt;DE関連でとりあえず1冊．&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;objective-swenochang-shi-woshen-nitukeru&quot;&gt;Objective: SWEの常識を身につける&lt;&#x2F;h1&gt;
+&lt;p&gt;DEに関連して，SWEの常識を身につけたい．&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-googlenosohutoueaenziniaringu-wodu-mu&quot;&gt;Key Result: &lt;a href=&quot;https:&#x2F;&#x2F;amzn.asia&#x2F;d&#x2F;bYSl7x2&quot;&gt;Googleのソフトウェアエンジニアリング&lt;&#x2F;a&gt; を読む&lt;&#x2F;h2&gt;
+&lt;p&gt;現時点で読みかけ，すごい良いのでちゃんと読みたい．&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;key-result-code-complete-wodu-mu&quot;&gt;Key Result: &lt;a href=&quot;https:&#x2F;&#x2F;snrsw.github.io&#x2F;mydocs&#x2F;blog&#x2F;okr-2024-q1&#x2F;%5B&#x2F;d&#x2F;9Q1ZQ8Y%5D(https:&#x2F;&#x2F;amzn.asia&#x2F;d&#x2F;2LRmxS8)&quot;&gt;CODE COMPLETE&lt;&#x2F;a&gt; を読む&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;amzn.asia&#x2F;d&#x2F;0FFd8dh&quot;&gt;Good Code, Bad Code&lt;&#x2F;a&gt; を読んだので類書として簡単に読みたい．&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>🎒 Let&#x27;s start a blog!</title>
+        <published>2023-12-31T17:51:50+09:00</published>
+        <updated>2023-12-31T17:51:50+09:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/blog/first/"/>
+        <id>https://snrsw.github.io/mydocs/blog/first/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/blog/first/">&lt;p&gt;I&#x27;ve decided to start a blog. I plan to write about mathematics, data science, data engineering, and whatever else I want to write about. There are two types of posts on this site: blogs and docs. Blog posts are about thoughts and ideas, while documentation are brief, clear explanatory posts about a particular topic. I write articles in English and Japanese. I hope you enjoy my blog posts.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>snrsw</title>
+        <published>2021-04-01T08:50:45+00:00</published>
+        <updated>2021-04-01T08:50:45+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/authors/snrsw/"/>
+        <id>https://snrsw.github.io/mydocs/authors/snrsw/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/authors/snrsw/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;snrsw&quot;&gt;@snrsw&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>snrsw</title>
+        <published>2021-04-01T08:50:45+00:00</published>
+        <updated>2021-04-01T08:50:45+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://snrsw.github.io/mydocs/me/snrsw/"/>
+        <id>https://snrsw.github.io/mydocs/me/snrsw/</id>
+        
+        <content type="html" xml:base="https://snrsw.github.io/mydocs/me/snrsw/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;snrsw&quot;&gt;@snrsw&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
