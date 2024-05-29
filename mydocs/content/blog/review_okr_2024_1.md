@@ -1,5 +1,5 @@
 +++
-title = "🍓 Review: OKR 2024 Q1"
+title = "🍓 Review: OKR 2024 1"
 description = ""
 date = "2024-05-03T15:46:13+09:00"
 updated = "2024-05-03T15:46:13+09:00"
@@ -10,11 +10,11 @@ template = "blog/page.html"
 authors = ["snrsw"]
 
 [extra]
-lead = "Review of OKR 2024 Q1."
+lead = "Review of OKR 2024 1."
 +++
 
 
-[OKR 2024 Q1](./okr_2024_q1) の振り返り．
+[OKR 2024 1](./okr_2024_1) の振り返り．
 
 # Objective: 数学を継続する
 
