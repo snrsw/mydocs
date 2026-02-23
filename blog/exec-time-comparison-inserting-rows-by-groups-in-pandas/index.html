@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://snrsw.github.io/mydocs/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://snrsw.github.io/mydocs/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://snrsw.github.io/mydocs/main.css">
+
+
+
+  
+  
+  
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>🍉 Casual execution time comparison: updating rows per group in Pandas | My Docs</title>
+<meta name="description" content="snrsw&#x27;s docs">
+<link rel="canonical" href="https://snrsw.github.io/mydocs/blog/exec-time-comparison-inserting-rows-by-groups-in-pandas/">
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  
+    <meta name="twitter:image" content="https://snrsw.github.io/mydocs/doks.png">
+  
+  <meta name="twitter:title" content="🍉 Casual execution time comparison: updating rows per group in Pandas">
+  <meta name="twitter:description" content="snrsw&#x27;s docs">
+  <meta name="twitter:site" content="@s_nrsw">
+  <meta name="twitter:creator" content="@s_nrsw">
+  
+  <meta property="og:title" content="🍉 Casual execution time comparison: updating rows per group in Pandas">
+  <meta property="og:description" content="snrsw&#x27;s docs">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://snrsw.github.io/mydocs/blog/exec-time-comparison-inserting-rows-by-groups-in-pandas/">
+
+  
+    <meta property="og:image" content="https://snrsw.github.io/mydocs/doks.png">
+  
+
+  <meta property="og:updated_time" content="2024-02-09T03:28:57+09:00">
+  <meta property="og:site_name" content="🍉 Casual execution time comparison: updating rows per group in Pandas">
+
+  
+
+  
+
+  
+  <meta property="article:publisher" content="https://www.facebook.com/s_nrsw">
+  <meta property="article:author" content="https://www.facebook.com/s_nrsw">
+  <meta property="og:locale" content="en_US">
+
+
+
+
+
+  
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/blog/exec-time-comparison-inserting-rows-by-groups-in-pandas/"
+      },
+      "headline": "🍉 Casual execution time comparison: updating rows per group in Pandas",
+      "image": ,
+      "datePublished": "2024-02-09T03:28:57+09:00",
+      "dateModified": "2024-02-09T03:28:57+09:00",
+      "author": {
+        "@type": "Organization",
+        "name": "🍉 Casual execution time comparison: updating rows per group in Pandas"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "🍉 Casual execution time comparison: updating rows per group in Pandas",
+        
+        "logo": {
+          "@type": "ImageObject",
+          "url": "/logo-doks.png"
+        }
+        
+      },
+      "description": "snrsw&#x27;s docs"
+    }
+    </script>
+  
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://snrsw.github.io/mydocs/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Blog",
+            "item": "https://snrsw.github.io/mydocs/blog/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Exec Time Comparison Inserting Rows By Groups In Pandas",
+            "item": "https://snrsw.github.io/mydocs/blog/exec-time-comparison-inserting-rows-by-groups-in-pandas/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://snrsw.github.io/mydocs/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://snrsw.github.io/mydocs/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://snrsw.github.io/mydocs/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://snrsw.github.io/mydocs/site.webmanifest" crossorigin>
+  
+
+
+  
+    
+      <!-- KaTeX -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+      <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+      <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+    
+  
+
+</head>
+
+  
+
+<body class="blog single">
+  
+  
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://snrsw.github.io/mydocs">My Docs</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://twitter.com/s_nrsw"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg><span class="ms-2 visually-hidden">Twitter</span></a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://github.com/snrsw/docs"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="ms-2 visually-hidden">GitHub</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://snrsw.github.io/mydocs/docs/">Docs</a>
+						</li>
+					
+						<li class="nav-item blog active">
+							<a class="nav-link" href="https://snrsw.github.io/mydocs/blog/">Blog</a>
+						</li>
+					
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form col-lg-5 order-7 order-md-5">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Search docs..."
+						aria-label="Search docs..." autocomplete="on">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div>
+</header>
+
+
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-10 col-xxl-8">
+        <article>
+          <div class="blog-header">
+            <h1>🍉 Casual execution time comparison: updating rows per group in Pandas</h1>
+            
+<p><small>Posted February  9, 2024 by <a class="stretched-link position-relative" href="https://snrsw.github.io/mydocs/authors/snrsw/">snrsw</a>&nbsp;&hyphen;&nbsp;<strong>5&nbsp;min read</strong></small><p>
+
+          </div>
+          <p class="lead">Lightweight comparison of the execution time of different methods for updating rows per group in Pandas.</p>
+          <h1 id="tl-dr">TL;DR</h1>
+<p>In this post, we consider the efficient methods of updating rows per group in Pandas. We compare the average execution time of different methods for different sizes of data to find the most efficient method.
+The result shows that the groupby method is the most efficient in many cases.</p>
+<h1 id="problem-and-goals">Problem and Goals</h1>
+<p>The problem of updating rows per group is described as follows:</p>
+<p>Input:</p>
+<table><thead><tr><th>id</th><th>value</th></tr></thead><tbody>
+<tr><td>A</td><td>1</td></tr>
+<tr><td>A</td><td>2</td></tr>
+<tr><td>B</td><td>3</td></tr>
+<tr><td>B</td><td>4</td></tr>
+<tr><td>C</td><td>5</td></tr>
+</tbody></table>
+<p>Task:</p>
+<ul>
+<li>Update the value per group
+<ul>
+<li>Let us update the value of id A to value * 2, id B to value * 10, and id C to value + 1.</li>
+</ul>
+</li>
+</ul>
+<p>Output:</p>
+<table><thead><tr><th>id</th><th>value</th></tr></thead><tbody>
+<tr><td>A</td><td>2</td></tr>
+<tr><td>A</td><td>4</td></tr>
+<tr><td>B</td><td>30</td></tr>
+<tr><td>B</td><td>40</td></tr>
+<tr><td>C</td><td>6</td></tr>
+</tbody></table>
+<p>The goal of this post is to compare the efficiency of different methods for updating rows per group in Pandas.</p>
+<h1 id="experiment">Experiment</h1>
+<h2 id="environment">Environment</h2>
+<p>All codes are executed in Google Colabratory with CPU.</p>
+<h2 id="methods-of-updating-rows-per-group">Methods of updating rows per group</h2>
+<p>We consider the following methods for updating rows per group in Pandas:</p>
+<ol>
+<li>Using <code>pd.DataFrame.loc</code></li>
+<li>Using <code>pd.DataFrame.groupby</code></li>
+<li>Using <code>pd.DataFrame.apply</code></li>
+<li>Using <code>pd.DataFrame.mask</code></li>
+<li>Using <code>np.where</code></li>
+<li>Using <code>map</code> and <code>pd.DataFrame.apply</code></li>
+</ol>
+<p>(I think these are common methods for updating rows per group in Pandas. If you know other efficient methods, please let me know.)</p>
+<p>In detail, the following functions are used for each method: Note that <code>id2newvalue</code> is tasks represented by a dictionary that has the mapping from id to function for updating the value. This is defined by</p>
+<pre data-lang="python" style="background-color:#2b303b;color:#c0c5ce;" class="language-python "><code class="language-python" data-lang="python"><span style="color:#b48ead;">def </span><span style="color:#8fa1b3;">generate_id2newvalue</span><span>(</span><span style="color:#bf616a;">dataframe</span><span>: pd.DataFrame) -&gt; dict[int, Callable[[int], int]]:
+</span><span>    </span><span style="color:#b48ead;">return </span><span>{
+</span><span>        </span><span style="color:#bf616a;">_</span><span>: </span><span style="color:#b48ead;">lambda </span><span style="color:#bf616a;">value</span><span>: </span><span style="color:#bf616a;">int</span><span>(value * np.random.</span><span style="color:#bf616a;">rand</span><span>())
+</span><span>        </span><span style="color:#b48ead;">for </span><span style="color:#bf616a;">_ </span><span style="color:#b48ead;">in </span><span>dataframe[&quot;</span><span style="color:#a3be8c;">id</span><span>&quot;].</span><span style="color:#bf616a;">unique</span><span>()
+</span><span>    }
+</span></code></pre>
+<h3 id="using-pd-dataframe-loc">Using <code>pd.DataFrame.loc</code></h3>
+<pre data-lang="python" style="background-color:#2b303b;color:#c0c5ce;" class="language-python "><code class="language-python" data-lang="python"><span style="color:#b48ead;">def </span><span style="color:#8fa1b3;">use_loc</span><span>(</span><span style="color:#bf616a;">df</span><span>: pd.DataFrame, </span><span style="color:#bf616a;">id2newvalue</span><span>: dict[int, Callable[[int], int]]) -&gt; </span><span style="color:#d08770;">None</span><span>:
+</span><span>    </span><span style="color:#b48ead;">for </span><span style="color:#96b5b4;">id </span><span style="color:#b48ead;">in </span><span>df[&quot;</span><span style="color:#a3be8c;">id</span><span>&quot;].</span><span style="color:#bf616a;">unique</span><span>():
+</span><span>        df.loc[df[&quot;</span><span style="color:#a3be8c;">id</span><span>&quot;] == </span><span style="color:#96b5b4;">id</span><span>, &quot;</span><span style="color:#a3be8c;">value</span><span>&quot;] = df.loc[df[&quot;</span><span style="color:#a3be8c;">id</span><span>&quot;] == </span><span style="color:#96b5b4;">id</span><span>, &quot;</span><span style="color:#a3be8c;">value</span><span>&quot;].</span><span style="color:#bf616a;">map</span><span>(id2newvalue[</span><span style="color:#96b5b4;">id</span><span>])
+</span><span>    </span><span style="color:#b48ead;">return </span><span>df
+</span></code></pre>
+<h3 id="using-pd-dataframe-groupby">Using <code>pd.DataFrame.groupby</code></h3>
+<pre data-lang="python" style="background-color:#2b303b;color:#c0c5ce;" class="language-python "><code class="language-python" data-lang="python"><span style="color:#b48ead;">def </span><span style="color:#8fa1b3;">use_groupby</span><span>(</span><span style="color:#bf616a;">df</span><span>: pd.DataFrame, </span><span style="color:#bf616a;">id2newvalue</span><span>: dict[int, Callable[[int], int]]) -&gt; </span><span style="color:#d08770;">None</span><span>:
+</span><span>    </span><span style="color:#b48ead;">return </span><span>pd.</span><span style="color:#bf616a;">concat</span><span>(
+</span><span>        [
+</span><span>            gdf.</span><span style="color:#bf616a;">assign</span><span>(
+</span><span>                </span><span style="color:#bf616a;">value</span><span>=</span><span style="color:#b48ead;">lambda </span><span style="color:#bf616a;">df</span><span>: df[&quot;</span><span style="color:#a3be8c;">value</span><span>&quot;].</span><span style="color:#bf616a;">map</span><span>(id2newvalue[g])
+</span><span>            )
+</span><span>            </span><span style="color:#b48ead;">for </span><span>g, gdf </span><span style="color:#b48ead;">in </span><span>df.</span><span style="color:#bf616a;">groupby</span><span>(&quot;</span><span style="color:#a3be8c;">id</span><span>&quot;)
+</span><span>        ]
+</span><span>    )
+</span></code></pre>
+<h3 id="using-pd-dataframe-apply">Using <code>pd.DataFrame.apply</code></h3>
+<pre data-lang="python" style="background-color:#2b303b;color:#c0c5ce;" class="language-python "><code class="language-python" data-lang="python"><span style="color:#b48ead;">def </span><span style="color:#8fa1b3;">use_apply</span><span>(</span><span style="color:#bf616a;">df</span><span>: pd.DataFrame, </span><span style="color:#bf616a;">id2newvalue</span><span>: dict[int, Callable[[int], int]]):
+</span><span>    df[&quot;</span><span style="color:#a3be8c;">value</span><span>&quot;] = df.</span><span style="color:#bf616a;">apply</span><span>(</span><span style="color:#b48ead;">lambda </span><span style="color:#bf616a;">row</span><span>: id2newvalue[row[&quot;</span><span style="color:#a3be8c;">id</span><span>&quot;]](row[&quot;</span><span style="color:#a3be8c;">value</span><span>&quot;]), </span><span style="color:#bf616a;">axis</span><span>=</span><span style="color:#d08770;">1</span><span>)
+</span><span>    </span><span style="color:#b48ead;">return </span><span>df
+</span></code></pre>
+<h3 id="using-pd-dataframe-mask">Using <code>pd.DataFrame.mask</code></h3>
+<pre data-lang="python" style="background-color:#2b303b;color:#c0c5ce;" class="language-python "><code class="language-python" data-lang="python"><span style="color:#b48ead;">def </span><span style="color:#8fa1b3;">use_pd_mask</span><span>(</span><span style="color:#bf616a;">df</span><span>: pd.DataFrame, </span><span style="color:#bf616a;">id2newvalue</span><span>: dict[int, Callable[[int], int]]):
+</span><span>    </span><span style="color:#b48ead;">for </span><span style="color:#96b5b4;">id </span><span style="color:#b48ead;">in </span><span>df[&quot;</span><span style="color:#a3be8c;">id</span><span>&quot;].</span><span style="color:#bf616a;">unique</span><span>():
+</span><span>        df[&quot;</span><span style="color:#a3be8c;">value</span><span>&quot;].</span><span style="color:#bf616a;">mask</span><span>(df[&quot;</span><span style="color:#a3be8c;">id</span><span>&quot;] == </span><span style="color:#96b5b4;">id</span><span>, df[&quot;</span><span style="color:#a3be8c;">value</span><span>&quot;].</span><span style="color:#bf616a;">map</span><span>(id2newvalue[</span><span style="color:#96b5b4;">id</span><span>]), </span><span style="color:#bf616a;">inplace</span><span>=</span><span style="color:#d08770;">True</span><span>)
+</span><span>    </span><span style="color:#b48ead;">return </span><span>df
+</span></code></pre>
+<h3 id="using-np-where">Using <code>np.where</code></h3>
+<pre data-lang="python" style="background-color:#2b303b;color:#c0c5ce;" class="language-python "><code class="language-python" data-lang="python"><span style="color:#b48ead;">def </span><span style="color:#8fa1b3;">use_np_where</span><span>(</span><span style="color:#bf616a;">df</span><span>: pd.DataFrame, </span><span style="color:#bf616a;">id2newvalue</span><span>: dict[int, Callable[[int], int]]):
+</span><span>    </span><span style="color:#b48ead;">for </span><span style="color:#96b5b4;">id </span><span style="color:#b48ead;">in </span><span>df[&quot;</span><span style="color:#a3be8c;">id</span><span>&quot;].</span><span style="color:#bf616a;">unique</span><span>():
+</span><span>        df[&quot;</span><span style="color:#a3be8c;">value</span><span>&quot;] = np.</span><span style="color:#bf616a;">where</span><span>(df[&quot;</span><span style="color:#a3be8c;">id</span><span>&quot;] == </span><span style="color:#96b5b4;">id</span><span>, df[&quot;</span><span style="color:#a3be8c;">value</span><span>&quot;].</span><span style="color:#bf616a;">map</span><span>(id2newvalue[</span><span style="color:#96b5b4;">id</span><span>]), df[&quot;</span><span style="color:#a3be8c;">value</span><span>&quot;])
+</span><span>    </span><span style="color:#b48ead;">return </span><span>df
+</span></code></pre>
+<h3 id="using-map-and-pd-dataframe-apply">Using <code>map</code> and <code>pd.DataFrame.apply</code></h3>
+<pre data-lang="python" style="background-color:#2b303b;color:#c0c5ce;" class="language-python "><code class="language-python" data-lang="python"><span style="color:#b48ead;">def </span><span style="color:#8fa1b3;">use_map_and_apply</span><span>(</span><span style="color:#bf616a;">df</span><span>: pd.DataFrame, </span><span style="color:#bf616a;">id2newvalue</span><span>: dict[int, Callable[[int], int]]):
+</span><span>    df[&quot;</span><span style="color:#a3be8c;">_lambda</span><span>&quot;] = df[&quot;</span><span style="color:#a3be8c;">id</span><span>&quot;].</span><span style="color:#bf616a;">map</span><span>(id2newvalue)
+</span><span>    df[&quot;</span><span style="color:#a3be8c;">value</span><span>&quot;] = df.</span><span style="color:#bf616a;">apply</span><span>(</span><span style="color:#b48ead;">lambda </span><span style="color:#bf616a;">row</span><span>: row[&quot;</span><span style="color:#a3be8c;">_lambda</span><span>&quot;](row[&quot;</span><span style="color:#a3be8c;">value</span><span>&quot;]), </span><span style="color:#bf616a;">axis</span><span>=</span><span style="color:#d08770;">1</span><span>)
+</span><span>    </span><span style="color:#b48ead;">return </span><span>df
+</span></code></pre>
+<h2 id="data-and-its-size">Data and its size</h2>
+<p>The size of the data is defined as a pair of the number of unique ids and the number of rows per id. The data is generated by the following functions:</p>
+<pre data-lang="python" style="background-color:#2b303b;color:#c0c5ce;" class="language-python "><code class="language-python" data-lang="python"><span style="color:#b48ead;">def </span><span style="color:#8fa1b3;">generate_dataframe</span><span>(</span><span style="color:#bf616a;">n_ids</span><span>: int, </span><span style="color:#bf616a;">n_rows_per_id</span><span>: int) -&gt; pd.DataFrame:
+</span><span>    </span><span style="color:#b48ead;">return </span><span>pd.</span><span style="color:#bf616a;">concat</span><span>([
+</span><span>        pd.</span><span style="color:#bf616a;">DataFrame</span><span>(
+</span><span>            {
+</span><span>                &quot;</span><span style="color:#a3be8c;">id</span><span>&quot;: [</span><span style="color:#96b5b4;">id</span><span>] * n_rows_per_id,
+</span><span>                &quot;</span><span style="color:#a3be8c;">value</span><span>&quot;: [</span><span style="color:#96b5b4;">id</span><span>] * n_rows_per_id
+</span><span>            }
+</span><span>        )
+</span><span>        </span><span style="color:#b48ead;">for </span><span style="color:#96b5b4;">id </span><span style="color:#b48ead;">in </span><span style="color:#96b5b4;">range</span><span>(n_ids)
+</span><span>    ]).</span><span style="color:#bf616a;">reset_index</span><span>(</span><span style="color:#bf616a;">drop</span><span>=</span><span style="color:#d08770;">True</span><span>)
+</span></code></pre>
+<h2 id="comparison-methods">Comparison Methods</h2>
+<p>We compare the average execution time of the above methods for different sizes of data.</p>
+<p>The average execution time is calculated by the following functions:</p>
+<pre data-lang="python" style="background-color:#2b303b;color:#c0c5ce;" class="language-python "><code class="language-python" data-lang="python"><span style="color:#65737e;"># use as a decorator to measure the execution time of a function
+</span><span style="color:#b48ead;">def </span><span style="color:#8fa1b3;">log_exec_time</span><span>(</span><span style="color:#bf616a;">f</span><span>: Callable) -&gt; Callable:
+</span><span>    </span><span style="color:#b48ead;">def </span><span style="color:#8fa1b3;">_wrapper</span><span>(*</span><span style="color:#bf616a;">args</span><span>: Any, **</span><span style="color:#bf616a;">kwargs</span><span>: Any) -&gt; Any:
+</span><span>        start = datetime.datetime.</span><span style="color:#bf616a;">now</span><span>()
+</span><span>
+</span><span>        v = </span><span style="color:#bf616a;">f</span><span>(*args, **kwargs)
+</span><span>
+</span><span>        end = datetime.datetime.</span><span style="color:#bf616a;">now</span><span>()
+</span><span>        exec_time = end - start
+</span><span>        </span><span style="color:#96b5b4;">print</span><span>(</span><span style="color:#b48ead;">f</span><span>&quot;{f.__name__}</span><span style="color:#a3be8c;"> execution time: </span><span>{exec_time}&quot;)
+</span><span>        </span><span style="color:#b48ead;">return </span><span>v, exec_time
+</span><span>    </span><span style="color:#b48ead;">return </span><span>_wrapper
+</span><span>
+</span><span style="color:#65737e;"># calculate the average execution time of a function decorated by `log_exec_time`
+</span><span style="color:#b48ead;">def </span><span style="color:#8fa1b3;">average_exec_time</span><span>(
+</span><span>    </span><span style="color:#bf616a;">df</span><span>: pd.DataFrame,
+</span><span>    </span><span style="color:#bf616a;">id2newvalue</span><span>: dict[int, int],
+</span><span>    </span><span style="color:#bf616a;">f</span><span>: Callable,
+</span><span>    </span><span style="color:#bf616a;">n_experiments</span><span>: int = </span><span style="color:#d08770;">3
+</span><span>) -&gt; datetime.timedelta:
+</span><span>    exec_times = []
+</span><span>    </span><span style="color:#b48ead;">for </span><span style="color:#bf616a;">_ </span><span style="color:#b48ead;">in </span><span style="color:#96b5b4;">range</span><span>(n_experiments):
+</span><span>        result, exec_time = </span><span style="color:#bf616a;">f</span><span>(</span><span style="color:#bf616a;">df</span><span>=df.</span><span style="color:#bf616a;">copy</span><span>(), </span><span style="color:#bf616a;">id2newvalue</span><span>=id2newvalue)
+</span><span>        exec_times.</span><span style="color:#bf616a;">append</span><span>(exec_time)
+</span><span>
+</span><span>    exec_time_mean = </span><span style="color:#96b5b4;">sum</span><span>(exec_times, datetime.</span><span style="color:#bf616a;">timedelta</span><span>(</span><span style="color:#d08770;">0</span><span>)) / </span><span style="color:#96b5b4;">len</span><span>(exec_times)
+</span><span>    </span><span style="color:#b48ead;">return </span><span>exec_time_mean
+</span><span>
+</span></code></pre>
+<h2 id="results">Results</h2>
+<table><thead><tr><th style="text-align: right">n_ids</th><th style="text-align: right">n_rows_per_id</th><th style="text-align: right">n_experiments</th><th style="text-align: right">loc_exec_time</th><th style="text-align: right">groupby_exec_time</th><th style="text-align: right">apply_exec_time</th><th style="text-align: right">pd_mask_exec_time</th><th style="text-align: right">np_where_exec_time</th><th style="text-align: right">map_and_apply_exec_time</th></tr></thead><tbody>
+<tr><td style="text-align: right">10</td><td style="text-align: right">10</td><td style="text-align: right">3</td><td style="text-align: right">12.624</td><td style="text-align: right">7.703</td><td style="text-align: right">2.797</td><td style="text-align: right">12.359</td><td style="text-align: right">5.392</td><td style="text-align: right">6.028</td></tr>
+<tr><td style="text-align: right">10</td><td style="text-align: right">100</td><td style="text-align: right">3</td><td style="text-align: right">10.616</td><td style="text-align: right">6.958</td><td style="text-align: right">14.159</td><td style="text-align: right">25.858</td><td style="text-align: right">13.601</td><td style="text-align: right">13.542</td></tr>
+<tr><td style="text-align: right">10</td><td style="text-align: right">1000</td><td style="text-align: right">3</td><td style="text-align: right">28.073</td><td style="text-align: right">15.779</td><td style="text-align: right">206.288</td><td style="text-align: right">100.877</td><td style="text-align: right">99.615</td><td style="text-align: right">104.206</td></tr>
+<tr><td style="text-align: right">100</td><td style="text-align: right">10</td><td style="text-align: right">3</td><td style="text-align: right">86.349</td><td style="text-align: right">47.872</td><td style="text-align: right">14.867</td><td style="text-align: right">192.608</td><td style="text-align: right">122.889</td><td style="text-align: right">19.62</td></tr>
+<tr><td style="text-align: right">100</td><td style="text-align: right">100</td><td style="text-align: right">3</td><td style="text-align: right">105.755</td><td style="text-align: right">56.326</td><td style="text-align: right">127.586</td><td style="text-align: right">1519.09</td><td style="text-align: right">2104.67</td><td style="text-align: right">99.318</td></tr>
+<tr><td style="text-align: right">100</td><td style="text-align: right">1000</td><td style="text-align: right">3</td><td style="text-align: right">256.553</td><td style="text-align: right">192.222</td><td style="text-align: right">1263.7</td><td style="text-align: right">9933.72</td><td style="text-align: right">9944.58</td><td style="text-align: right">1002.69</td></tr>
+<tr><td style="text-align: right">1000</td><td style="text-align: right">10</td><td style="text-align: right">3</td><td style="text-align: right">1125.49</td><td style="text-align: right">462.817</td><td style="text-align: right">124.138</td><td style="text-align: right">11143.4</td><td style="text-align: right">10721.8</td><td style="text-align: right">108.833</td></tr>
+<tr><td style="text-align: right">1000</td><td style="text-align: right">100</td><td style="text-align: right">3</td><td style="text-align: right">1411.8</td><td style="text-align: right">810.568</td><td style="text-align: right">1236.71</td><td style="text-align: right">97575.8</td><td style="text-align: right">97159</td><td style="text-align: right">1025.93</td></tr>
+<tr><td style="text-align: right">1000</td><td style="text-align: right">1000</td><td style="text-align: right">3</td><td style="text-align: right">7240.26</td><td style="text-align: right">1734.84</td><td style="text-align: right">13115.8</td><td style="text-align: right">972661</td><td style="text-align: right">949273</td><td style="text-align: right">10632.3</td></tr>
+</tbody></table>
+<p>exec time unit: ms</p>
+<ul>
+<li>The groupby method is the most efficient method in many cases,</li>
+<li>When n_rows_per_id=10 the apply method and the map and apply method are the most efficient methods,</li>
+<li>The loc method is relatively efficient,</li>
+<li>The other methods are less efficient,</li>
+<li>The number of unique ids has a strong effect on the execution time.</li>
+</ul>
+<h1 id="references">References</h1>
+<p>For more details, please see the following notebook:
+<a href="https://colab.research.google.com/drive/1j5BHKRA1VfLR00HPgoEFy_Sfz6UwWtX0?usp=sharing">Google Colabratory</a>.</p>
+
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Powered by <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+						
+							<li class="list-inline-item"><a href="https://snrsw.github.io/mydocs/privacy-policy/">Privacy</a></li>
+						
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://snrsw.github.io/mydocs/js/main.js" defer></script>
+
+  <script type="text/javascript" src="https://snrsw.github.io/mydocs/plugins/elasticlunr.min.js" defer></script>
+  <script type="text/javascript" src="https://snrsw.github.io/mydocs/search_index.en.js" defer></script>
+  <script type="text/javascript" src="https://snrsw.github.io/mydocs/js/search.js" defer></script>
+
+  
+</body>
+</html>
