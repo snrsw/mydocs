@@ -1,5 +1,5 @@
 +++
-title = "my development environment at 2026"
+title = "🔩 my development environment at 2026"
 description = ""
 date = "2026-02-23T13:32:18+09:00"
 updated = "2026-02-23T13:32:18+09:00"
